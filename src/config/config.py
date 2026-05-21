@@ -13,7 +13,7 @@ class Config:
     """Configuration class for RAG system"""
     
     # API Keys
-    OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"] 
+    OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 
     #OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
     
