@@ -75,12 +75,12 @@ def initialize_rag():
         return None, 0
 
 def main():
-    """Main application"""
+    """MY RAG application - Kuldeep Saxena"""
     init_session_state()
     
     # Title
-    st.title("🔍 RAG Document Search")
-    st.markdown("Ask questions about the loaded documents")
+    st.title("🔍 An Example of RAG Document Search")
+    st.markdown("Ask questions about the Recurrent neural networks")
     
     # Initialize system
     if not st.session_state.initialized:
